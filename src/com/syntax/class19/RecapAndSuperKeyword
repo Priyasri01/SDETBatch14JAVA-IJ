@@ -1,0 +1,60 @@
+"this" keyword:
+
+    this keyword refer the object itself.
+    The main purpose of this keyword is to avoid confusion between instant and local varaible.
+    "this" is a keyword like "class", "void". it is used in many places. For example
+    if we have same name instance and a local variable we can use "this" to
+    explicitly refer to instance variable. We can use "this()" to call a constructor inside another
+    constructor as long as they are in same class.
+
+ note: this keyword cannot be used in the static context.
+this keyword can be used to:
+-reference instance data feilds.
+-reference instance method
+-Invoke a constructor
+why we are have more constructor?
+ To povide more flexibility to user.
+
+why should we learn about "this" keyword:
+    1)it allows us to have same name local and instance variables.
+    2) if we have same code in two constructors we can reuse that code from one constructor
+    inside another constructor by writing "this()".
+Inheritance:
+    Inheritance is a mechanism in java through which we can use the fields/methods of
+    one class inside another class.Basically access the fields/method/constructor from one class to another class by using "extends" keyword.
+    in order to make inhertance class their need to be connection/same track.
+
+There are 4 types of inheritance.
+
+note: There can be 4 types of inheritance but java only supports 3(first 3) of them with classess.
+
+    1) Single inheritance:
+        In single inheritance we have only one parent and one child class.
+        Employee->Person.
+
+    2) Multilevel Inheritance:
+        In Multilevel inheritance we have inheritance in multiple levels like we have a grandfather-> father->son->grand son.
+        means one parent and there are many children but not direct children. basically it goes like chain.
+like:one base class, one derived class and multiple intermediate classes
+     3) Hierarchical inheritance:
+       one parent class and multiple direct child classes.
+
+    4) Multiple inheritance:(it is not supported by classes in Java)
+        one child class can directly inherit from multiple parent classes. it is not supported by java because of diamond problem.
+what is diamond problem?
+same name of method in both parent classes, because of java does not know which one to call
+Why should we learn inheritance?
+    It allows to reduce the duplicate code.
+what is the syntax?
+    we can use this feature by writing extends keyword when declaring a class.
+============================================================================================
+note: inside the class the Squance is not matter . we can create method first and next we can create reference variable and we can create constructor and so on...
+but only in main method the sequence is matter. compiler will check the code from top to bottom and left to right.
+
+==============================================================
+super keyword is reference varaible.
+
+note: "this" keyword help us to call the constructor  from the same class.
+whereas "super" keyword help us to call the constructor from the parent class.
+
+Because constructor not participated while we inherit the class.

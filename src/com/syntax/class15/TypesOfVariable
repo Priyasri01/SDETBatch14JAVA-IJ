@@ -1,0 +1,24 @@
+Types of variable with respect to their scope/reach/frames.
+
+There are three types of variables :
+    1)Local variables
+    2) instance variables
+    3) static variable
+
+
+  Local variable:
+    A Variable that is created inside a main method loop switch case or any block of code withing {} is called local variable.
+
+    for(int i=0 ; i<3;i++){
+
+    i is local variable
+    }
+
+
+instant variable
+
+instance var that is declared outside of block of code but inside a class
+
+Static Variable :
+
+if an instance variable has a keyword static is called a static vairable.

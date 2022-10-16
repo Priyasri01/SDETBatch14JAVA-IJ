@@ -1,0 +1,81 @@
+Types of variables in java with respect to their scope:
+    There are three types of variables in java with respect to their
+    scope. Local instance and static.
+Local variables:
+    If a variable is declared inside a block of code like method, loop,
+    if-condition they are called local variables.
+    within method , we can directly access the variable
+
+Up-Side of a local variable:
+    The upside is they exist for a very short amount of time in the memory.
+    which means other programs on our computer can use that memory.
+Down-Side of local variables:
+    Their scope is very limited. we can access only inside that block in which they are created.
+    we can't access them outside that block.
+When to use:
+    We should always try to use local variable over instance variables whenever it
+    is possible.
+Instance variables:
+    The variables which are declared inside a class but outside method/block of code are called
+    instance variables.
+    In order to access the Instant variable, we need access through Instance/Object
+
+Up-side:
+    We can use/access these variables inside any block of code that is inside that class.
+
+DownSide:
+    They occupy the memory for longer than a local variable.
+
+When we should use instance variables:
+    1) When we need to share a value between two or more methods then we should go with the instance variable.
+    2) When we are planing to create multiple objects of a class and it is possible that all the objects can have
+    a different value for that variable.
+static variable:
+    An instance variable with static keyword is called a static variable.
+    this can initialized in class or in method
+Up-side:
+    We can share data across the objects with the help of static variable.
+Down-side:
+    They occupy the memory for the longest period of time.
+When to use:
+    When we want to share something across all the methods.
+==================================================================
+Access Modifiers:
+    Access modifiers are keywords which control the access of fields or methods or the class itself.
+    There are four access levels and three access modifier have  keywords(private,public, protected).
+    These are only applicable to instance or static variable not to local variables.
+private access modifier:
+    Private is the most restricted one. if we use private keyword with any variable or method.
+    we can only access it within the same class.
+When we should use private access modifier.
+    We should always try to create variables as private.
+    The data that we store inside the private variables is secured.
+default access modifier:
+    Default is not a keyword. whenever we don't assign any access modifier keyword like private or
+    public Java assigns default access level to those variables or methods.
+    The variables or methods which have default access level can be accessed wihin the same class or in any other
+    class that is present inside the same package.
+Public access modifier:
+    when the public access modifier is applied to an entity can be accessed anywhere inside that project.
+    Usually the classes itself and methods are declared as public
+    Public access most unrestricted access modifier. Once used with an variable or method we can access that variable
+    or method anywhere in our project.
+
+ protected :
+ when apply entities can be accessed outside of the package as well but only on the class that have parent-child relationship.
+Note:
+We can have only one public class in a file and the name of that class should match
+the name of the file.
+
+note:
+non-static means.. we call the method through abject.
+
+note:
+ we if we have varaible , if we need to call instead of  typing all the sys out. we can just type "sysov"and enter u will get the full line.
+ ex:
+ "soutv + enter"
+ System.out.println("humera = " + humera); // output
+
+ =======================================================================================================================================================================================
+
+

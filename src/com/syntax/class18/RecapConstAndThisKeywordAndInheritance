@@ -1,0 +1,54 @@
+Constructors:
+   constructor will help initial the object.
+     Constructor help us give initial values to the fields of a
+        class.
+Why we should use a constructor:
+    1)Constructors help us write cleaner code.
+    2)Constructors give us more control over the values that an end user can
+    assign to the field of a class.
+    3)more secure.
+Syntax of Constructor:
+    Access modifier className (parameters){
+
+    }
+Class Dog{
+String name;
+public Dog(String dogName){
+name=dogName;
+}
+
+}
+// note when we  created our own constructor without any parameter like(below) then they  won't called as default constructor it's called as no-argument constructor.
+and also, when ever we created our own constructor, the default constructor will be gone.
+syntax
+Teacher(){ ---> this no-argument constructor.
+
+}
+ //note All the constructors have to be separated by their parameters data types and number of parameters
+ //you can not use static for constructor it will give u an error.
+
+ ===============================================================================
+ new topic "This" keyword
+
+ //the this keyword should always be on the first line of the second constructor.
+ // this keyword always refer the instant variable.
+ // note the reason for have more constructor is to give user more flexibility
+=======================================================================================
+New Topic Inheritance
+
+Inheritance  means one class acquired the properties(meaning Accessing variables & method) of the other class.
+Inheritance their are two class called parent and child
+ parent/class/base class/super class
+
+ child
+
+-we can create new class(as parent class) that based on existence one (u don't need to write new code every time, java gives us opportunities to reuse code)
+-if a field or method has private access modifer in parent class then child class can't use it.
+
+
+About Protected Access Modifier:
+so the only difference between default and protected is The access level of a default modifier is only within the package.
+ It cannot be accessed from outside the package. and The access level of a protected modifier is within the package and outside the package through child class.
+
+ Big Disadvantage of Inheritance is that the two classes(parent& child class) get tightly coupled.
+Because, it's  dependency, The subclass becomes dependent on the parent class. So, if one thing change on the parent class if will affect the child class. we want to  use the inheritance where we need exactly.

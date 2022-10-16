@@ -1,0 +1,12 @@
+why we should excludes packages and class from compiling:
+    In intellij if we have syntax error in any of the file in project another fle unless we fix that error.sometimes we want to excute
+
+
+How to exclude packages:
+    double click the  shift button twice Quickly and type exclude and hit enter
+    from the pop up window , click on the + button and select the packages that you want to exclude.
+
+    how Java code is excuted on compuert or how java code is compiled and executed on computer.
+    We wite the code in files with extensions  .java
+    once we hit the run button a software program called compiler checks this code for
+    avoid
