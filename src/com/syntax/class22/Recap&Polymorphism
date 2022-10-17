@@ -1,11 +1,16 @@
 Method Overriding:
     Allows us to have same name methods in parent and child classes.
 Why we should Override a method:
+    The child class will have his own implementation of behaviour and aslo we can reuse the same method from parent class.
     Lets say we are inheritaning from a Parent class that has 10 methods. we like 8 of them. we want to reuse those
-    methods, but we don't like 2 of them we want to provide implementation in a different way. We can use method overriding.
-    to override those methods.
+    methods, but we don't like 2 of them we want to provide implementation in a different way. We can use method overriding, to override those methods.
 what is the syntax to override a method:
-    we simply redefine the method in the child class.
+    we simply redefine/change  the body of the  method in the child class. the rest all will be the same. Meaning  it's suppose to be exact the same name, same data type , same sequency of parameter.the visibility can go higher not lesser.
+    for ex: if u have method in parent class as public Sum() and in child we can't change the access modifier  from puplic to private.
+
+  @override is an annotation that tells java to check the rules like if we are properly overriding a method or not.
+  -note // like other type method , we can also override  the  static method but we call it as re-declared not as overriding.see parent example for more details.
+
 
 so method overloading is a way of achieving compile time polymorphism right? did we discuss that?is it similar to runtime polymorphism?yes
 
@@ -14,4 +19,31 @@ Final:
 we cannot access private class outside of the class whereas we can access to the final class.
 
  //so basically we can store anything in parent class, but we can't store parent stuff in child class--updcasting
- //upcasting is used only with inheritance
+ //upcasting  & downcasting is used only with inheritance
+ //we can have final keyword with local varibale
+ //if we have final keyword  in the method, we can inhertit that method  in the child class , but we can't override. whereas  if we have private method we can't inherit and we can't override also.
+
+//And we can have final class but we can't inherit than class and we can't override also.
+//we can't use teh final keyword in constructor also.
+//constructor won't allow any non access modifier which is static, final and so on.
+// different between final and private?
+//final:
+  we can access final methods or variables but we cant change it,but with private we cant even access it.
+final is non access modifier, final we can access out side of the class
+private is access modifier , private we can't access out side of the class.
+ ==================================================
+ Polymorphism is the ability of an object to take on many forms.
+ polymorphism in Java allows us to perform the same action in many different ways.
+ Polymorphism is the capability of a method to do different things on the object it is acting upon.
+ Overriding and overloading are polymorphism? yes
+ Comile time Polymorphism/static/early  binding through method  overloading
+ rum time polymorphism/Dynamic/late binding  through method overriding
+polymorphism:
+    polymorphism is the ability of a method to take on many forms based on the object or the parameters that we pass
+    to the method.
+Types of polymorphism:
+    There are two types of polymorphism. 1) compile time/static/early binding or run time/dynamic or late binding.
+    compile time/static/early binding:
+        When we use method overloading to achieve polymorphism it is called compile time polymorphism.
+    Run time/dynamic or late binding:
+        When we use method overriding to achieve polymorphism then it is called Run time polymorphism.

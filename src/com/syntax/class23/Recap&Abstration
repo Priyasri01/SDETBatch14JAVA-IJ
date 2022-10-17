@@ -5,9 +5,11 @@ Why we should override a method?
     1) when we inherit from a class everything other than private methods and constructors is inherited if we
     don't like any method from the parent we can override.
     2) it helps us achieve polymorphism.
+    3) it's more flexibility for the child class creater also, for example if we have 10 method and we like 8 method so reuse it , the other two method  we can override it ,
+    so basically  we can have our own implemention , which won't affect the other subclass.
 what is the syntax to override a method:
     1) First there must be a parent child relationship.
-    2) In the child class just redefine the method.
+    2) In the child class just redefine(change) the body of  method.
 Type casting in objects:
     As we can type cast in the primitive data types we can also type cast objects.
     like storing the object of a child class in a variable of parent type.
@@ -17,16 +19,16 @@ what is the syntax to type cast?
     its same as primitive type caseting for example if we have an animal class and animal class has a child class Cat
     we can do
     Animal animal=new Cat();
-    parent name[] arr={new childclass name()}
+    parent classname[] arr={new childclass name()}
 polymorphism:
-    polymorphism is the ability of a method to take on many forms based on the object or the parameters that we pass
+ by using polymorphism a  method can  take on many forms/behaviour based on the object or the parameters that we pass
     to the method.
+    polymorphism in Java allows us to perform the same action in many different ways.
 Types of polymorphism:
     There are two types of polymorphism. 1) compile time/static/early binding or run time/dynamic or late binding.
-    compile time/static/early binding:
-        When we use method overloading to achieve polymorphism it is called compile time polymorphism.
-    Run time/dynamic or late binding:
-        When we use method overriding to achieve polymorphism then it is called Run time polymorphism.
+   -  When we use method overloading to achieve polymorphism it is called compile time polymorphism//static/early binding:
+    Run time/
+    -  When we use method overriding to achieve polymorphism then it is called Run time polymorphism/dynamic or late binding:
 
 final Keyword:
     final keyword is just like any other keyword in java like class package void etc.

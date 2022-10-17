@@ -16,9 +16,24 @@ public class WebDeriverTester {
         fireFox.test();
         fireFox.closeBrowser();*/
 
+        /*
+        Chrome chrome = new Chrome();
+        FireFox firefox= new FireFox();
+        Safari safari= new Safari();
 
-        WebDriver[] browsers={new Chrome(),new Safari(),new FireFox()};
-        for (WebDriver browser:browsers
+        WebDriver[] browser = {chrome,firefox,safari} //note from  line 20 to 24  we made shorter way as single line 32.
+         */
+
+ /*
+        Creating objects of all Child classes and storing them in an array of
+        type Web driver we can do this bcause upcasting allows us to do this
+         */
+
+
+       // Chrome chrome = (Chrome)new WebDriver(); This is down casting, we will get error
+
+        WebDriver[] browsers = {new Chrome(), new Safari(), new FireFox()}; //this is polymorphism  by using upcasting
+        for (WebDriver browser : browsers
         ) {
             browser.startBrowser();
             browser.test();
@@ -26,29 +41,20 @@ public class WebDeriverTester {
             System.out.println("**************************************************");
         }
 
-for (int i=0; i<browsers.length;i++){
+        for (int i = 0; i < browsers.length; i++) {
 
-    browsers[i].startBrowser();
-    browsers[i].test();
-    browsers[i].closeBrowser();
+            browsers[i].startBrowser();
+            browsers[i].test();
+            browsers[i].closeBrowser();
 
-    System.out.println("**************************************************");
-}
+            System.out.println("**************************************************");
+        }
 
-          /* Chrome chrome=new Chrome();
-        FireFox fireFox=new FireFox();
-        Safari safari=new Safari();
-        WebDriver[] browsers={chrome,fireFox,safari};
-        */
-        /*
-        Creating objects of all Child classes and storing them in an array of
-        type Webdriver we can do this bcause upcasting allows us to do this
-         */
+
     }
+
+
 }
-
-
-
 
 
 

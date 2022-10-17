@@ -19,8 +19,11 @@ package com.syntax.class22;
 
 
         void stop() {
-            super.stop();
+            super.stop(); /*reusing the same method  from parent class,
+          see we have conflict here (line 21 stop(), and 22 also stop() ,
+           so we used  super keyword  to tell compiler explicitly that we are interested in parent method also */
             System.out.println("you can also use auto-breaking to stop me");
+
         }
     }
 

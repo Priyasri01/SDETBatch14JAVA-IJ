@@ -13,7 +13,7 @@ public class Animals {
 }
 class Panda extends Animals{
 /*
-@override is an annotation that tells java to check for extra rules like if we are prperly overriding a method or not
+@override is an annotation that tells java to check the rules like if we are properly overriding a method or not
  */
     @Override
     void eat(){ // the red arrow next to line 19 tells where we override this method

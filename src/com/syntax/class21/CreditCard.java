@@ -7,9 +7,9 @@ Create 2 subclasses: Visa and AX. In AX class override method calculate interest
 Call the method by creating an object of each of the three classes.
      */
 
-   static double balance;
-   static double interest;
-    static double calculateInterest;
+ double balance;
+ double interest;
+ double calculateInterest;
 
     CreditCard(double balance,double interest){
 
@@ -17,7 +17,7 @@ Call the method by creating an object of each of the three classes.
         this.interest=interest;
 
     }
-    public static  void  meth1(){
+public void  meth1(){
 
         calculateInterest =  balance * (interest/100);
         System.out.println("your this month interest rate is $"+interest +" "+ calculateInterest);
@@ -35,8 +35,8 @@ class AX extends Visa{
     AX(double balance , double interest){
         super(balance, interest);
     }
-
- public static void meth1(){
+@Override
+public void  meth1(){
 
         calculateInterest = balance * (interest/100);
     System.out.println("your this month interest rate is $"+interest +" " +calculateInterest);

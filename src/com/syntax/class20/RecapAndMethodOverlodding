@@ -29,6 +29,7 @@ Super keyword:
 ==================================================================================
 MethodOverloading:
     Method overloading allows us to create multiple methods in a class with same name with different prameter.
+    inhertance is not involved in here becasue mehtod overloading we are in the same class
 Why we should create multiple methods with same name?
 it gives us cleaner code
     It gives the end user flexibility.

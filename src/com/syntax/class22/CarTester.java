@@ -7,13 +7,15 @@ public class CarTester {
             BMW bmw=new BMW();
             bmw.start();
             bmw.stop();
-        /*System.out.println("************");
+       System.out.println("************");
+
         Toyota toyota=new Toyota();
         toyota.start();
         toyota.stop();
+
         System.out.println("************");
         Tesla tesla=new Tesla();
         tesla.stop();
-*/
+
         }
 }

@@ -13,3 +13,16 @@ enhance for loop
 ======================================================
 The maximum allowed size of array in java is it's maximum  value of it's data type.
 To specify array size the allowed data types are byte,short,int,char. if we use other data  type then we will get compiler error.
+Array is a collection of similar type of data.
+Array is a container object that hold values of
+homogeneous type.
+It is a collection of similar data types.
+It is fixed in size that means you can't increase
+the size of array at run time.
+It stores the value on the basis of index
+value.The first element of an array starts with
+zero
+=======================================================================
+2D Array:
+what is 2D Array?
+Array of Arrays is called 2D Array.
