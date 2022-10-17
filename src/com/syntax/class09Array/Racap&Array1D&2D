@@ -1,0 +1,15 @@
+break--- it will exit the loop block
+
+continue---skip the current iteration/execution
+
+nested loop---loop inside the another loop
+
+4 types of loop
+while
+do while
+for loop --- it's more popular
+enhance for loop
+
+======================================================
+The maximum allowed size of array in java is it's maximum  value of it's data type.
+To specify array size the allowed data types are byte,short,int,char. if we use other data  type then we will get compiler error.

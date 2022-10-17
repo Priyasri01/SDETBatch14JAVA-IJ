@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60878d0d-ddd5-4539-b1cc-68aa290aa828" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SDETBatch14Java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ReviewClass07/DogShelterTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/syntax/class13/Demo02StringBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/syntax/class13/HomeWork03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/syntax/class13/HomeWork04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/syntax/class13/HomeWrok02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/syntax/class13/Homwork01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/syntax/class18/RecapConstAndThisKeywordAndInheritance" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/syntax/class23/InterfaceTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class23/InterfaceTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,13 +45,13 @@
       <recent name="C:\Users\priya\IdeaProjects\SDETBatch14Java\src\com\syntax\class22" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.syntax.class23.InterfaceTester">
-    <configuration name="InterfaceTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.syntax.class22.InterfaceTester" />
+  <component name="RunManager" selected="Application.HomeWork05">
+    <configuration name="HomeWork01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.syntax.class09Array.HomeWork01" />
       <module name="SDETBatch14Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.syntax.class22.*" />
+          <option name="PATTERN" value="com.syntax.class09Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +59,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Replit154" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReplitSamples.Replit154" />
+    <configuration name="HomeWork02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.syntax.class09Array.HomeWork02" />
       <module name="SDETBatch14Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ReplitSamples.*" />
+          <option name="PATTERN" value="com.syntax.class09Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Replit155" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReplitSamples.Replit155" />
+    <configuration name="HomeWork03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.syntax.class09Array.HomeWork03" />
       <module name="SDETBatch14Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ReplitSamples.*" />
+          <option name="PATTERN" value="com.syntax.class09Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Replit156" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReplitSamples.Replit156" />
+    <configuration name="HomeWork04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.syntax.class09Array.HomeWork04" />
       <module name="SDETBatch14Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ReplitSamples.*" />
+          <option name="PATTERN" value="com.syntax.class09Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.syntax.class23.InterfaceTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.syntax.class23.InterfaceTester" />
+    <configuration name="HomeWork05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.syntax.class09Array.HomeWork05" />
       <module name="SDETBatch14Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.syntax.class23.*" />
+          <option name="PATTERN" value="com.syntax.class09Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.syntax.class23.InterfaceTester" />
-        <item itemvalue="Application.InterfaceTester" />
-        <item itemvalue="Application.Replit156" />
-        <item itemvalue="Application.Replit155" />
-        <item itemvalue="Application.Replit154" />
+        <item itemvalue="Application.HomeWork05" />
+        <item itemvalue="Application.HomeWork04" />
+        <item itemvalue="Application.HomeWork03" />
+        <item itemvalue="Application.HomeWork02" />
+        <item itemvalue="Application.HomeWork01" />
       </list>
     </recent_temporary>
   </component>
