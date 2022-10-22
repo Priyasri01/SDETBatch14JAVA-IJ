@@ -29,8 +29,13 @@ note:
 ==========================================================================================================
 Constructor Method:
 
+
 What is constructor?
 initialize the object
+
+Is Constructor can be overload?
+Similar to methods you can also overload constructors i.e. you can write more than constructor with different parameters.
+And, based on the parameters we pass at the time of instantiation, respective constructor will be invoked.
 
 we have two major benefits for using the constructor
 -constructor helps us build the objects in more cleaner way.
@@ -41,3 +46,10 @@ we have two major benefits for using the constructor
 we won't get any compiler error.but it's not good practice to put syso out inside the Constructor.*/
 
 /*important note:  method  is for action meaning we can have sysout & we can get return value also . */
+
+Note:
+Constructor chaining refers to calling a constructor from other constructor. It is of two types.
+
+Within same Class − Use this() keyword to refer to current class constructor. Make sure that this() is the first statement of the constructor and there should be at least one constructor without using this() statement.
+
+From super/base Class − Use super() keyword to refer to parent class constructor. Make sure that super() is the first statement of the constructor.

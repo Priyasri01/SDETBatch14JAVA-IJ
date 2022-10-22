@@ -1,5 +1,13 @@
 "this" keyword:
 
+check Review class 08 for the "this" and "super" keyword big example.
+note: method and constructor both will have access modifier.
+
+/*
+is this mandatory to call all constructor from parent class? or always one of them is enough?  Depends on what data you need to use
+we cannot create a new constructor without calling a constructor from the parent class, when we are inhertance.
+ */
+
     this keyword refer the object itself.
     The main purpose of this keyword is to avoid confusion between instant and local varaible.
     "this" is a keyword like "class", "void". it is used in many places. For example

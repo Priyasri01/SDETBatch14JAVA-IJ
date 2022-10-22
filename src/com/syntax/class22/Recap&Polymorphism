@@ -16,22 +16,37 @@ so method overloading is a way of achieving compile time polymorphism right? did
 
 ============================================================================================================================================================
 Final:
-we cannot access private class outside of the class whereas we can access to the final class.
 
- //so basically we can store anything in parent class, but we can't store parent stuff in child class--updcasting
- //upcasting  & downcasting is used only with inheritance
- //we can have final keyword with local varibale
- //if we have final keyword  in the method, we can inhertit that method  in the child class , but we can't override. whereas  if we have private method we can't inherit and we can't override also.
+final keyword is used in different contexts. First of all, final is a non-access modifier applicable only to a variable, a method, or a class.
+ The following are different contexts where final is used.
 
-//And we can have final class but we can't inherit than class and we can't override also.
-//we can't use teh final keyword in constructor also.
-//constructor won't allow any non access modifier which is static, final and so on.
-// different between final and private?
+Final Keyword In Java
+
+Final Variable --> To create constant(it means can't modify)variable
+Final Method--->We can't override the method.but , we can do overloading with final method , and we can change the value also , since it's in the same class. see replt 170 for details
+Final class-->Prevent Inheritance
+final method-->
+
+/ different between final and private?
 //final:
   we can access final methods or variables but we cant change it,but with private we cant even access it.
 final is non access modifier, final we can access out side of the class
 private is access modifier , private we can't access out side of the class.
+
+we cannot access private class outside of the class whereas we can access to the final class.
+
+
+ //we can have final keyword with local varibale
+ //if we have final keyword  in the method, we can inhertit that method  in the child class , and we can't override. whereas  if we have private method we can't inherit and we can't override also.
+
+//And we can have final class but we can't inherit than class and we can't override also.
+//we can't use teh final keyword in constructor also.
+//constructor won't allow any non access modifier which is static, final and so on.
+
  ==================================================
+//so basically we can store anything in parent class, but we can't store parent stuff in child class--updcasting
+ //upcasting  & downcasting is used only with inheritance
+
  Polymorphism is the ability of an object to take on many forms.
  polymorphism in Java allows us to perform the same action in many different ways.
  Polymorphism is the capability of a method to do different things on the object it is acting upon.

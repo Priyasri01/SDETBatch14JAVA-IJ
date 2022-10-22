@@ -2,15 +2,15 @@ package com.syntax.class23;
 
 public interface IDataBase {
 
-    void openDatabase();
+   void openDatabase();
     void readDate();
     void writeData();
 
 // we can't have instance variable in interface. all the method
 }
-class IBM implements IDataBase {
+class IBM implements IDataBase { //When class has to implement an interface then we will use "implements" keyword.
     @Override
-    public void openDatabase() {
+  public void openDatabase() {
 
         System.out.println("Opening the IBM Database");
 

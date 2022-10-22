@@ -3,17 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="60878d0d-ddd5-4539-b1cc-68aa290aa828" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/syntax/class09Array/Racap&amp;Array1D&amp;2D" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class09Array/Racap&amp;Array1D&amp;2D" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/syntax/class20/RecapAndMethodOverlodding" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class20/RecapAndMethodOverlodding" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/syntax/class21/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class21/CreditCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/syntax/class22/Animals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class22/Animals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/syntax/class22/AnimalsTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class22/AnimalsTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/syntax/class22/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class22/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/syntax/class22/CarTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class22/CarTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/syntax/class22/Parent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class22/Parent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/syntax/class22/ParentTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class22/ParentTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/syntax/class17/RecapAndConstructor" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class17/RecapAndConstructor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/syntax/class19/RecapAndSuperKeyword" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class19/RecapAndSuperKeyword" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/syntax/class22/Recap&amp;Polymorphism" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class22/Recap&amp;Polymorphism" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/syntax/class22/WebDeriverTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class22/WebDeriverTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/syntax/class23/IDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class23/IDataBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/syntax/class23/Recap&amp;Abstration" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class23/Recap&amp;Abstration" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,13 +50,13 @@
       <recent name="C:\Users\priya\IdeaProjects\SDETBatch14Java\src\com\syntax\class22" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WebDeriverTester">
+  <component name="RunManager" selected="Application.WDriverTester">
     <configuration name="CarTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.syntax.class22.CarTester" />
+      <option name="MAIN_CLASS_NAME" value="GroupProject02.CarTester" />
       <module name="SDETBatch14Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.syntax.class22.*" />
+          <option name="PATTERN" value="GroupProject02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoDArrayDemo04OddAndEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.syntax.class09Array.TwoDArrayDemo04OddAndEven" />
+    <configuration name="Main16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReplitSamples.Main16" />
       <module name="SDETBatch14Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.syntax.class09Array.*" />
+          <option name="PATTERN" value="ReplitSamples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoDArrayDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.syntax.class09Array.TwoDArrayDemo2" />
+    <configuration name="MarkTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GroupProject02.MarkTester" />
       <module name="SDETBatch14Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.syntax.class09Array.*" />
+          <option name="PATTERN" value="GroupProject02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoDArraySumOfOddAndEvenNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.syntax.class09Array.TwoDArraySumOfOddAndEvenNumber" />
+    <configuration name="ShapeTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GroupProject02.ShapeTester" />
       <module name="SDETBatch14Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.syntax.class09Array.*" />
+          <option name="PATTERN" value="GroupProject02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebDeriverTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.syntax.class22.WebDeriverTester" />
+    <configuration name="WDriverTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GroupProject02.WDriverTester" />
       <module name="SDETBatch14Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.syntax.class22.*" />
+          <option name="PATTERN" value="GroupProject02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WebDeriverTester" />
+        <item itemvalue="Application.WDriverTester" />
+        <item itemvalue="Application.MarkTester" />
         <item itemvalue="Application.CarTester" />
-        <item itemvalue="Application.TwoDArraySumOfOddAndEvenNumber" />
-        <item itemvalue="Application.TwoDArrayDemo04OddAndEven" />
-        <item itemvalue="Application.TwoDArrayDemo2" />
+        <item itemvalue="Application.ShapeTester" />
+        <item itemvalue="Application.Main16" />
       </list>
     </recent_temporary>
   </component>

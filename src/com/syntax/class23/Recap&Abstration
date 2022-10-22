@@ -40,17 +40,121 @@ final Keyword:
 ============================================================================================
 
 Abstraction:
+Abstraction is the process of separating ideas from their action.
+Abstraction focus on what the objects does instead of how it does it.
+Abstraction is a process of just define method and variable and not implementinh(hiding the implementation details)and showing only the functionality  to the user.
+
+
+Note:
+Abstraction is nothing but the process of giving a set of guidelines to the user, who are going to implement these guidelines based on their needs.
+
+Abstract classes and Abstract methods :
+
+1-An abstract class is a class that is declared with an abstract keyword.
+2-An abstract method is a method that is declared without implementation.
+3-An abstract class may or may not have all abstract methods. Some of them can be concrete methods
+4-A method-defined abstract must always be redefined in the subclass, thus making overriding compulsory or making the subclass itself abstract.
+5-Any class that contains one or more abstract methods must also be declared with an abstract keyword.
+6-There can be no object of an abstract class. That is, an abstract class can not be directly instantiated with the new operator.
+7-An abstract class can have parameterized constructors and the default constructor is always present in an abstract class.
+
+Advantage of Abstraction:
+1)It reduces the complexity of viewing things.
+2)Avoids code duplication and increases reusability.
+3)Helps to increase the security of an application or program as only essential details are provided to the user.
+4)It improves the maintainability of the application.
+5)It improves the modularity of the application.
+6)The enhancement will become very easy because without affecting end-users we can able to perform any type of changes in our internal system.
+
+ Note: in java program we have two type of class
+ 1) Abstract class -- we can't create an object for the Abstract class. And it will contain one or two Abstract method.
+ 2) Concrete Class ---we can create an object for this class.
+
+ An Abstract class is one which is declared with abstract keyword and can contain define/impleted  method  and undefine method
 
 Abstract Method:
 -only will declartion but no definition/implementation
 
+in Abstract class, we can have all types of method void, return, abstract. but if we have at least single method as abstract then we have to call the class as abstract.
+
+note:if we create any  class as abstract then we can't create an object of that class.
+
 
 -Abstraction Class
     - if it abstract class, then we can't  create the object.
-    -class contains atleast one Abstract Method.(Meaning one abstract method and normal method)
+    -class contains atleast one Abstract Method.(Meaning one abstract method and concrete  method)
     -Implementation of Abstract method will be written in derived class(subclass).
 
  -Concrete class
     -in concrete class Object can be instantiated/created
-    -class contains complete definition for all methods.
+    -class contains complete definition/implementation for all methods.
 
+Note: There is no Abstract things for  constructor and feild. Abstract is only applicable for the method.
+
+note: when we have abstract method in super class/parent class  and when we heave inhertant methond then in
+child class we have to implement all the method from parent class otherwise will get compiler error.  we can do this in different way
+1) if we don't want the method then make class as abstract.
+2) just call the method , but no need to implement(meaning leave the body empty, no need any logic inside).
+
+is-A Relationship:
+means is their any relationship  between child and parent yes that  means it "is-A Relationship".
+means is theri any relationship between animal and cat yet that means it "IS-A Relationship".
+
+================================================================================================================================================================
+Interface:
+-An interface in Java is a blueprint of a class. A Java interface contains static constants and  public abstract methods.
+-All the constant(in interface instead variable they will say as constant)  in interface are default as public static final int age =10; but we don't have to type everything just type the below syntax.
+int a=10;
+When class has to implement an interface then we will use "implements" keyword.
+ex: public interface IDatabase{
+
+}class IBM implements IDatabase{
+}
+
+- it's truely like bule print.
+before java 8 interface won't allow instance variable , private , default protected  filed  and also it won't allow any constructor . so it's nothing but a blueprint .
+
+Interface is simailar to class which is collection of public static final variable(Constants) and public abstract methods.
+The interface is also a mechanism to achieve abstraction in java.
+
+Note:
+Java Class wont't support Multiple inheritance , we will get dimanod problem. But, by using Interface, we can achieve multiple inheritance in java.
+in interface , it is implicitly abstract . so we don't neet to use the abstract keyword when declaring an interface.
+Each method in an interface  is also implicitly abstract, so the abstract keyword is not needed.
+Methods in an interface are implicitly public.
+interface can't contain instace feild.
+
+Important Note:
+There can be only public  abstract methods in the interface(before Java 8).
+Now we can have default and static method as well. it is used to achieve fully abstraction and multiple inhertance in Java.
+
+Note:(About implement keyword in interface.
+When class has to implement an interface then we will use "implements" keyword.check IDataBase interface file.
+
+Interface Support multiple inheritance . Because in Interface we can extends multiple interface. check in class Person file.
+
+Difference between Abstract and Inheritance?
+
+- Abstract can have a instant varible,
+ -implemented and non- implemetend method.
+ -can have constructor
+ -need to put abstract key word infornt of the variable, method and class.
+
+Inheritance:
+can't have instant variable,
+it have only constant ,
+ only we can define the method ,
+we don't need to put abstract in class and constant
+ -can't  have constructor
+
+ when we use Abstract and instant variable.
+ - if we don't know any things about implementation and just have requirement Specification then we should be go for interface.
+ - if we are talking about implementation but not completely(partially implemented) then we should be go for abstract.
+
+
+ Note: important note:
+ prior to JDK 8, interface could not define implementation. Now we can add implemented default or static method into interface.
+
+
+ A class can implement more than one interface.Whereas class can extends only one class.
+ An interface can extends another interface, similarly to the way that a class can extend another class.
