@@ -153,7 +153,7 @@ we don't need to put abstract in class and constant
 
 
  Note: important note:
- prior to JDK 8, interface could not define implementation. Now we can add implemented default or static method into interface.
+ prior to JDK 8, interface could not define implementation. Now we can add implemented in default or static method.
 
 
  A class can implement more than one interface.Whereas class can extends only one class.

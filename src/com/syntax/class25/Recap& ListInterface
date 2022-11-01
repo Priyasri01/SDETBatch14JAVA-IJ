@@ -1,0 +1,90 @@
+Collections Framework:
+   -Java Collection Framework is a collection of multiple interfaces and classes which help in storing and processing(meaning add,retrieving, deleting and shifting  elements/objects) the data efficiently.
+   -Collection framework in java provides an ready-made architecture to store and manipulate the group of objects that represented as a single unit.
+   -This framework has several useful classes which have tons of useful functions which makes a programmer task super easy
+   -Collection Framework” has been defined in JDK 1.2
+   -collection framework will not work with primitive , it's works with only classes.
+
+what is the down side of the ArrayList?
+    it can slow when we have larger data. but we can  overcome with this by just specify the size and there are so many approach.for example if we know how many elements are we going to store, then it's ideal to speicfy the size.
+
+ General info: initially ArrayList create 10 memory location by default,if we don't specify the size explicitly. in case if we store 11 element , the arrayList will double the size and restore everything in that array, it will keep on add it.
+
+ Advantage of ArrayList?
+  it's very good when it's come to manage it's size.
+  it's very good when it's come to  managing memory
+
+
+why we should learn about it.
+    1) Its very flexible.
+    2) Provide ready-made methods that we can just use.
+
+what is the Syntax?
+    Its similar how we create the object of any class, but we use <>(this one is called diamond bracket) to specify the name of the class whose objects or the type of data we going to store.
+    we are going to store in that class.
+
+Issues/downside  with Collections framework:
+    1) Collection framework does not work with primitive datatypes(solution is use wrapper classes).
+    2)object takes 4 four time more memory then primitive data type.
+    for example: int is primitive data type it takes 32bit(4 byte) to store. on the other hand integer is an object which takes 128bits(16bytes)to store its int value.
+    so only use wrapper type when we use the collection framework, because we don't have any other choice rather than wrapper classes  to utilize  the primitive data type
+
+Note:that's the reason all the methods carry array and primitive data type  and creating it's own logic inside .Instead of having Arraylist and calling it's method.
+
+
+Note: frequently asked in interviews!!!!!!!
+
+Wrapper classes:
+    wrapper classes are object types for all primitive types.
+
+
+Boxing:
+    converting the primitive data type to its corresponding wrapper type by explicitly calling methods.
+    int num=10;
+            // boxing or manual conversion from primitive to wrapper type
+          //  Integer wrappedNum=Integer.valueOf(num);
+Auto Boxing:
+    converting the primitive data type to its corresponding wrapper type by simply assigning the values.
+     Integer wrappedNum=10;
+Unboxing:
+    Converting a wrapper type to its corresponding primtive type by explicitly calling a method.
+      //unboxing converting a wrapper type to a corresponding primitive type
+          //  int num2=wrappedNum.intValue();
+Auto Unboxing:
+    converting a wrapper to corresponding primitive automatically by just assigning the value.
+    Integer wrappedNum=new Integer(10);
+    int num2=wrappedNum;
+
+===================================================================================================================================
+What is Iterator?
+  -An Iterator is an interface, that interface is implemented by all the classes inside the collection FrameWork Interface.
+  -The iterator is used for iterating the classes in collection framework.
+  -we use an iterator to iterate the elements of the collection classes.
+  -The Iterator is an interface.
+
+  NOTE: Iteration can be done only once.If you reach the end of series it's done. If we need to iterate again we  should get a new Iterator.
+
+ very important note:
+ we can use loops(forloop& enhance forLoop) in collection framework  if we want to retrieve only the elements
+but if we want to add or remove any elements then go for iterator.
+ However, it's perfect  in collection framework  if we always use iterator. because this iterator specially designed for collection Framework.
+
+ --->for more details check "WhyWeNeedIterator" class in package class25.
+ --->there are three method inside the iterator,.hasNext(),.next(), .remove().for more details check "IteratorDemo1" class in package class25
+ ---->for iterator first store the elements from next() to variable  and use it. never call the next() more than one time in loop.
+                  then we won't get the correct out, it acts like for loop if we call next method more than one time . for more details check "IteratorDemo5"class from package class25
+--->for iterator remove(), check class "IteratorDemo06" package25
+    ==================================================================================================================================================
+ General Info:
+ what is the Arraylist default initialCapacity?
+ it's 10 , but please note.
+ Mentioning the size is not mandatory , as we know the default Arraylist initial capacity is 10 . And,it will adjust according to our need later on during runtime itself.
+  However, in case if we know the amount of object in our project, it's good to specify the size.  if we do this way the memory will not get wasted.
+
+ what is  the benefit in providing the size?
+
+ in case if we didn't mention the intial size, and you want to stroe 11 elements . A moment when we  try  to store 11 th elements, java internally  will create new array list which will be the double the size 20,
+  and it will shift everything from old array to new array and then 11 th element will get stored. so , basically internally it's doing lots of work which will slow down our application process eventually.
+  so, it's idel to provide the size # in case if we know how many elements are we going to store in project.
+
+  ======================================================================================================================================================================================================
