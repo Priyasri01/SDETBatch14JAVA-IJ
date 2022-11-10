@@ -8,12 +8,10 @@ public class HomeWork03 {
         Remove any number that is divisible by 5 from that arrayList.*/
 
         ArrayList<Integer> evenNum = new ArrayList<>(250);
-        for(int i=1;i<=500;i++){
+        for(int i=2;i<=500;i+=2){
 
-            if(i%2==0){
+            evenNum.add(i);
 
-                evenNum.add(i);
-            }
 
         }
         System.out.println(evenNum);
@@ -31,7 +29,10 @@ public class HomeWork03 {
             }
             }
         System.out.println("Number that are not divisible by 5 are :");
-        System.out.println(evenNum);
+      System.out.println(evenNum);
+       // System.out.println(finalNum); //finalNum is variable we used for store the elements, and it will change on each iterate process.and it will change on each iterate process.
+
+
         }
 
     }

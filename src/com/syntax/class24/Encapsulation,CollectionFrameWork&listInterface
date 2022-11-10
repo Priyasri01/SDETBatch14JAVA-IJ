@@ -1,3 +1,10 @@
+Class24(Encapsulatio,CollectionFrameWork)
+
+Topics:
+-Encapsulation
+-collectionFramwork
+-listInterface
+
 what is Collections in java:
 
 Any group of individual objects which are represented as a single unit is known as the collection of the objects. In Java,
@@ -47,7 +54,7 @@ Different between Array and collection
 
 Array                                                   collection(---)
 1)fixed size                                                 -Growable in nature
-2)Arrays can hold homogenous/same data  type                            -it' can hold Homogenous & Hetrogenous data
+2)Arrays can hold homogenous/same data  type                   -it' can hold Homogenous & Hetrogenous data
 3)Their is no underlaying data structure.                       -Implement underlaying data structure, ready made methods are available.
 so,ready made method is not available.
 
@@ -91,7 +98,7 @@ list interface implemented by using a different classes. and they are
     2)linkedList:
        -in linkedlist every elements/object are called as node. node are not store in consequete order, but each elements are linked with elements address(each node carry three parts previous address, elements and next address.)
       -when ever we have insertion and delete operation , then we can go for linkedlist.
-      -we are not suppose to perfer linkedList class when we want to retrieve the elements,because it will navigate through out the  node, so it take time.
+      -we are not suppose to perfer linkedList class when we want to retrieve the elements,because it will navigate through out the  elements, so it take time.
       -linked list class will implement both  list(I)and DQueue intrterface.
       -we can preferred linkelist when  we want to insertion and delete elements /objects.
       -LinkedList carry same method what we have in ArrayList, beucase both are implementing the same parent interface(listInterface). but along with these method, it has addtional mehtod those are come from Dqueue interface they are
@@ -175,9 +182,9 @@ it is a way of restricting the access of our data members by hiding the implemen
 The user will have no idea about the inner implementation of the class. It will not be visible to the user how the class is storing values in the variables.
 The user will only know that we are passing the values to a setter method and variables are getting initialized with that value.
 Increased Flexibility:
- We can make the variables of the class read-only or write-only depending on our requirement.
+ We can make the variables of the class read-only(getter method) or write-only(setter method, by passing the value through constructor parameter) depending on our requirement.
  If we wish to make the variables read-only then we have to omit the setter methods like setName(), setAge(), etc.
- from the above program or if we wish to make the variables write-only then we have to omit the get methods like getName(), getAge(), etc. from the above program
+ If we wish to make the variables write-only then we have to omit the get methods like getName(), getAge(), etc.
 
 Reusability:
  Encapsulation also improves the re-usability and is easy to change with new requirements.
@@ -191,7 +198,7 @@ Testing code is easy:
 
 Different between getter and setter:
 setter:
-While Setter sets or updates the value (mutators).
+ Setter sets or updates the value (mutators).
  It sets the value for any variable used in a class’s programs.
  and starts with the word “set” followed by the variable name.
  Setter method always return type is void.

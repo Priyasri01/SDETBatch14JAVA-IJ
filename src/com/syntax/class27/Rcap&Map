@@ -1,0 +1,52 @@
+Map(I):
+The map interface is present in java.util package represents a mapping between a key and a value. The Map interface is not a subtype of the Collection interface. Therefore it behaves a bit differently from the rest of the collection types. A map contains unique keys.
+Map is nothing but collection of entries, it's interface where we can store information in the form of keys and value.
+why and when to use Maps?
+Maps are perfect to use for key-value association mapping such as dictionaries.
+The maps are used to perform lookups by keys or when someone wants to retrieve and update elements by keys. Some common scenarios are as follows:
+A map of error codes and their descriptions.
+A map of zip codes and cities.
+A map of managers and employees. Each manager (key) is associated with a list of employees (value) he manages.
+A map of classes and students. Each class (key) is associated with a list of students (value).
+And for searching operation
+
+pair is nothing but combination of key and value. pair we can call it as entry.
+
+
+classes that implement Map interface are:
+HashMap ,HashTable and TreeMap
+
+HaspMap(c):
+HashMap is a part of Java’s collection since Java 1.2. It provides the basic implementation of the Map interface of Java.
+It stores the data in (Key, Value) pairs. To access a value one must know its key. This class uses a technique called Hashing.
+Hashing is a technique of converting a large String to a small String that represents the same String.
+ A shorter value helps in indexing and faster searches.
+1) underlaying DS  is HashTable
+2)Insortion order not persevered
+3)duplicate keys are not allowed
+4)duplicate value are allowed
+5)null key allowed only onces
+6)null values can be muitiple.
+
+HashTable:
+
+
+Method of HashMap:
+m.put(key,value);
+m.putAll(map m1);
+m.remove(key);
+m.containsKey (key) //boolean return
+m.containsValue(value)
+m.isEmpty();
+m.size();
+m.clear();
+
+m.keySet()//to retrieve all the keys form the map and it will return by set object and duplicate is not allowed since return type is set
+m.values()// whihc will return all the values, which include duplicate also. return type is collection
+m.entrySet()//which provide both key and value in the map, return type  is set.
+
+========================================================
+
+when we override toString() , then we have to
+
+

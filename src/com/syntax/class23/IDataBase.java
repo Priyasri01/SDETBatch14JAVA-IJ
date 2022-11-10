@@ -6,6 +6,7 @@ public interface IDataBase {
     void readDate();
     void writeData();
 
+
 // we can't have instance variable in interface. all the method
 }
 class IBM implements IDataBase { //When class has to implement an interface then we will use "implements" keyword.

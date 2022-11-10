@@ -18,7 +18,10 @@ public class HomeWork01 {
         name.add("Archu");
         name.add("Characterizable");
 
-        Iterator<String> iter= name.iterator();
+  Iterator<String> iter= name.iterator();
+
+
+
 
         while(iter.hasNext()){
 

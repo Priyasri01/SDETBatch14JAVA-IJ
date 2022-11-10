@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60878d0d-ddd5-4539-b1cc-68aa290aa828" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/syntax/class25/IteratorDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/syntax/class26/WhenToUseSets.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SDETBatch14Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SDETBatch14Java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/syntax/class22/FinalDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class22/FinalDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/syntax/class23/IDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class23/IDataBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/syntax/class23/Recap&amp;Abstration" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class23/Recap&amp;Abstration" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/syntax/class24/DogEncapsulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class24/DogEncapsulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/syntax/class24/Encapsulation,CollectionFrameWork&amp;listInterface" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class24/Encapsulation,CollectionFrameWork&amp;listInterface" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/syntax/class25/HomeWork01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class25/HomeWork01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/syntax/class25/HomeWork02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class25/HomeWork02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/syntax/class25/HomeWork03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class25/HomeWork03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/syntax/class25/IteratorDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class25/IteratorDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/syntax/class25/IteratorDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class25/IteratorDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/syntax/class25/IteratorDemo4WithLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class25/IteratorDemo4WithLambda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/syntax/class25/Recap&amp; ListInterface" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class25/Recap&amp; ListInterface" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/syntax/class25/RemoveAllMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class25/RemoveAllMethod.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +30,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -38,7 +52,11 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/priya/Downloads/poi-bin-5.2.3-20220909 (1)/poi-bin-5.2.3/poi-scratchpad-5.2.3.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -46,22 +64,9 @@
       <recent name="C:\Users\priya\IdeaProjects\SDETBatch14Java\src\com\syntax\class22" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HomeWork03">
-    <configuration name="ArrayListClassDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.syntax.class24.ArrayListClassDemo2" />
-      <module name="SDETBatch14Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.syntax.class24.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HomeWork01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.syntax.class25.HomeWork01" />
+  <component name="RunManager" selected="Application.SetDemo">
+    <configuration name="IteratorDemo4WithLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.syntax.class25.IteratorDemo4WithLambda" />
       <module name="SDETBatch14Java" />
       <extension name="coverage">
         <pattern>
@@ -73,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeWork02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.syntax.class25.HomeWork02" />
+    <configuration name="Replit192" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReplitSamples.Replit192" />
       <module name="SDETBatch14Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.syntax.class25.*" />
+          <option name="PATTERN" value="ReplitSamples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeWork03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.syntax.class25.HomeWork03" />
+    <configuration name="Replit194" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReplitSamples.Replit194" />
       <module name="SDETBatch14Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.syntax.class25.*" />
+          <option name="PATTERN" value="ReplitSamples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +104,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IteratorDemo06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.syntax.class25.IteratorDemo06" />
+    <configuration name="SetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Reviwe08.SetDemo" />
       <module name="SDETBatch14Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.syntax.class25.*" />
+          <option name="PATTERN" value="Reviwe08.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Reviwe08.StudentTester" />
+      <module name="SDETBatch14Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Reviwe08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HomeWork03" />
-        <item itemvalue="Application.HomeWork02" />
-        <item itemvalue="Application.HomeWork01" />
-        <item itemvalue="Application.ArrayListClassDemo2" />
-        <item itemvalue="Application.IteratorDemo06" />
+        <item itemvalue="Application.SetDemo" />
+        <item itemvalue="Application.StudentTester" />
+        <item itemvalue="Application.IteratorDemo4WithLambda" />
+        <item itemvalue="Application.Replit194" />
+        <item itemvalue="Application.Replit192" />
       </list>
     </recent_temporary>
   </component>

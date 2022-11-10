@@ -24,7 +24,7 @@ public class IteratorDemo2 {
 
         while (iterator.hasNext()){ //.hasNext() method is perfectly used for while method
             System.out.println(iterator.next());
-            System.out.println(iterator.next()); //note we are not supposed to put two next(), we will get run time error if we have elements with odd size().in case it's even then we won't gett run time error. But always makesure to have single next().
+            System.out.println(iterator.next()); //note we are not supposed to put two next(), we will get run time error if we have elements with odd size().in case it's even then we won't gett run time error. But always makesure to have single next(). if we have two .next() it will act like for loop we won't get correct out put.
         }
         System.out.println(beautyProducts);
     }

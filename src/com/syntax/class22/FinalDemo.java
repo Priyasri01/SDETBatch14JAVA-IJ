@@ -1,6 +1,6 @@
 package com.syntax.class22;
 
-public class FinalDemo {
+public  class FinalDemo {
     public static void main(String[] args) {
 
         Phone phone= new Phone();

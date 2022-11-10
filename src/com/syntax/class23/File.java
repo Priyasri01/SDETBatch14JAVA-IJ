@@ -23,7 +23,7 @@ public abstract class File {
      System.out.println("we can close the file by using close options");
  }
 }
-class JavaFile extends File{
+class JavaFile extends File {
 
     @Override
     void open() {

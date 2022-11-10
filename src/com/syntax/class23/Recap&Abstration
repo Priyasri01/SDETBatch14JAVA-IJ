@@ -89,7 +89,7 @@ note:if we create any  class as abstract then we can't create an object of that 
     -in concrete class Object can be instantiated/created
     -class contains complete definition/implementation for all methods.
 
-Note: There is no Abstract things for  constructor and feild. Abstract is only applicable for the method.
+Note: There is no Abstract things for  constructor and filed. Abstract is only applicable for the method.
 
 note: when we have abstract method in super class/parent class  and when we heave inhertant methond then in
 child class we have to implement all the method from parent class otherwise will get compiler error.  we can do this in different way
@@ -124,9 +124,26 @@ Each method in an interface  is also implicitly abstract, so the abstract keywor
 Methods in an interface are implicitly public.
 interface can't contain instace feild.
 
+Interface:
+All methods of an interface are implicitly public abstract.
+Interface  adds  public,  static  and  final  keywords  before  data
+members.
+
+
+Note:
+Prior to JDK 8, interface could not define implementation. Now we can add implemented default or static methods into interface.
+
+Rules to  implement an  interface
+A class can implement more than one interface at a time.
+A class can extend only one class, but implement many interfaces.
+An interface can extend another interface, similarly to the way that a class can extend another class.
+
 Important Note:
 There can be only public  abstract methods in the interface(before Java 8).
 Now we can have default and static method as well. it is used to achieve fully abstraction and multiple inhertance in Java.
+A class uses the extends keyword to implement another class.
+A class uses the implements keyword to implement an interface.
+An interface uses the extends keyword to implement an interface.
 
 Note:(About implement keyword in interface.
 When class has to implement an interface then we will use "implements" keyword.check IDataBase interface file.

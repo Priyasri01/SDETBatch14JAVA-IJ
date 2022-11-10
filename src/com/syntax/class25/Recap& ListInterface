@@ -1,3 +1,11 @@
+Class25(Collections FrameWork & ListInterface)
+
+Tpoics:
+Collections Framework
+ArrayList
+Wrapper class
+Iterator
+
 Collections Framework:
    -Java Collection Framework is a collection of multiple interfaces and classes which help in storing and processing(meaning add,retrieving, deleting and shifting  elements/objects) the data efficiently.
    -Collection framework in java provides an ready-made architecture to store and manipulate the group of objects that represented as a single unit.
@@ -44,7 +52,7 @@ Boxing:
             // boxing or manual conversion from primitive to wrapper type
           //  Integer wrappedNum=Integer.valueOf(num);
 Auto Boxing:
-    converting the primitive data type to its corresponding wrapper type by simply assigning the values.
+   to its corresponding wrapper type by simply assigning the values.
      Integer wrappedNum=10;
 Unboxing:
     Converting a wrapper type to its corresponding primtive type by explicitly calling a method.
@@ -65,8 +73,8 @@ What is Iterator?
   NOTE: Iteration can be done only once.If you reach the end of series it's done. If we need to iterate again we  should get a new Iterator.
 
  very important note:
- we can use loops(forloop& enhance forLoop) in collection framework  if we want to retrieve only the elements
-but if we want to add or remove any elements then go for iterator.
+ we can use loops(forloop& enhance forLoop) in collection framework  if we want to retrieve only the elements  and also if there is  no change in sizes then we can use these loops
+but if we want to add or remove any elements then go for iterator. becasue of the dynamic(size will automatically change during run time).
  However, it's perfect  in collection framework  if we always use iterator. because this iterator specially designed for collection Framework.
 
  --->for more details check "WhyWeNeedIterator" class in package class25.

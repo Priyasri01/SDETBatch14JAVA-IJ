@@ -25,18 +25,29 @@ public class HomeWork02 {
 
         System.out.println("All the healthy drinks  from the List: " );
 
-        while(healthyDrinks.hasNext()){
+        //note,the requirement says replace  get() method will work with index only , so this iterator is not good approach. we have to use for loop.
+     /*   while(healthyDrinks.hasNext()){
 
             String healthyDr = healthyDrinks.next();
 
             if(healthyDr.contains("a") || healthyDr.contains("e")){
 
-                System.out.print("water" + " ");
+                System.out.print("water" + " "); //since i can't use set() inhere, i just did sout . we will get ouput but this is not done as per the requirment.so , this oppraoch is not right.
             }else{
 
-                System.out.print(healthyDr+ " ");
+                System.out.print(healthyDr+ " "); //healthyDr is variable we used for store the elements, and it will change on each iterate process. so we have to use  drinks.
+           System.out.print(drinks);
             }
         }
+
+      */ // this is the correct approach,  the size is not going to change, because  we are just replacing . the size going to be same so we can use this for loop.
+        for (int i = 0; i < drinks.size(); i++) {
+            if(drinks.get(i).contains("a")||drinks.get(i).contains("e")){
+                drinks.set(i,"Water"); //replace
+            }
+        }
+        System.out.println(drinks);
+
 
 
 

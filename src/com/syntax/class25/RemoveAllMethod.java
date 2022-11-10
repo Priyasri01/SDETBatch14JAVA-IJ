@@ -21,10 +21,12 @@ public class RemoveAllMethod {
         itemsToBeRemoved.add("Concealar");
         itemsToBeRemoved.add("josh");
 
-        makeUpItem.removeAll(itemsToBeRemoved);
+        makeUpItem.removeAll(itemsToBeRemoved); //it will remove all the item which are present inside itemsToBeRemoved colletion  form the  makeUpItem list/collection
 
       //  makeUpItem.clear(); // it will removes everything.
-        System.out.println(makeUpItem);
+        System.out.println(makeUpItem);//[Mascara, EyeLinear, Lipstick]
+        System.out.println(itemsToBeRemoved); //[Blush, Base, Concealar, josh]
+
 
 
 
