@@ -1,6 +1,41 @@
+
+ArrayList vs LinkedList:
+    ArrayList and LinkedList both implement the list interface. But internal implementation is different. LinkedList
+    is better for manipulation(adding new data at run time in-between or in the start of the list or removing
+    data) of data. ArrayList is better when most of the time we use get method.
+Sets:
+    Sets are another set of datastructures in collections framework that allow us to store only unique data.
+    as we can convert any data structure in collections framework we can use sets to remove duplicate data from
+    Lists we can also use sets.
+Types of sets:
+    There are many types of Sets, but we will be discussing only 1) HashSet 2) LinkedHashset 3) TreeSet.
+HashSet:
+    Upside: It is most memory efficient, and it requires less space as compared to other types of sets.
+    Downside: HashSet does not maintain the insertion order.
+LinkedHashSet:
+    UpSide: order of the elements is maintained.
+    DownSide: it takes more memory, and it is slower than Hashset.
+TreeSet:
+    UpSide: Data is sorted in natural order.
+    DownSide: It is slowest, and it takes more memory than Hashset.
+Demos of storing the objects of a custom class
+and how we can iterate through sets
+
+Important interview question:
+What is toString() method?
+toString method is used to print instance fields of a class whenever we try to print the object of a class println
+method internally calls this method. This method is inherited from the Object class. All the class that we create
+in java automatically inherited from Object class.
+
+==============================================================================================================================================================
 Map(I):
-The map interface is present in java.util package represents a mapping between a key and a value. The Map interface is not a subtype of the Collection interface. Therefore it behaves a bit differently from the rest of the collection types. A map contains unique keys.
-Map is nothing but collection of entries, it's interface where we can store information in the form of keys and value.
+The map interface is present in java.util package represents a mapping between a key and a value.
+The Map interface is not a subtype of the Collection interface.
+Therefore it behaves a bit differently from the rest of the collection types. A map contains unique keys.
+A Map is useful if you have to search, update or delete elements on the basis of a key.
+It's very faster.
+A map is an interface in which We can store key and value
+
 why and when to use Maps?
 Maps are perfect to use for key-value association mapping such as dictionaries.
 The maps are used to perform lookups by keys or when someone wants to retrieve and update elements by keys. Some common scenarios are as follows:
@@ -26,7 +61,7 @@ Hashing is a technique of converting a large String to a small String that repre
 3)duplicate keys are not allowed
 4)duplicate value are allowed
 5)null key allowed only onces
-6)null values can be muitiple.
+6)null values can be multiple.
 
 HashTable:
 
@@ -47,6 +82,26 @@ m.entrySet()//which provide both key and value in the map, return type  is set.
 
 ========================================================
 
-when we override toString() , then we have to
+Class 1: HashMap
+HashMap is a part of Java’s collection since Java 1.2. It provides the basic implementation of the Map interface of Java.
+ It stores the data in (Key, Value) pairs. To access a value one must know its key. This class uses a technique called Hashing.
+ Hashing is a technique of converting a large String to a small String that represents the same String.it' won't take lot of memory behind the screens
+A shorter value helps in indexing and faster searches. Let’s see how to create a map object using this class.
 
+Class 2: LinkedHashMap
+LinkedHashMap is just like HashMap with an additional feature of maintaining an order of elements inserted into it.
+HashMap provided the advantage of quick insertion, search, and deletion but it never maintained the track and
+order of insertion which the LinkedHashMap provides where the elements can be accessed in their insertion order.
+Let’s see how to create a map object using this class.
+it' will take lot of memory behind the screens when compare to hashmap
 
+Class 3: TreeMap
+The TreeMap in Java is used to implement the Map interface and NavigableMap along with the Abstract Class.
+The map is sorted according to the natural ordering of its keys, or by a Comparator provided at map creation time,
+ depending on which constructor is used. This proves to be an efficient way of sorting and storing the key-value pairs.
+  The storing order maintained by the treemap must be consistent with equals just like any other sorted map, irrespective of the explicit comparators.
+it's slow because it compares and places
+
+Let’s see how to create a map object using this class.
+
+when we override toString() , then we ha

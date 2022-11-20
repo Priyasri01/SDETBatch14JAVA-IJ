@@ -1,0 +1,62 @@
+
+
+About Properties files:
+
+
+Properties files are mainly used in Java programs to  maintain project configuration data, database config  or project settings etc.
+Properties  files  stores  simple  parameters  as key-value  pairs,  outside  of  compiled  code.  Key  and  Values are separated using = sign.
+Example:
+Key=Value     or      Key:Value
+School=Syntax
+We can easily read properties from some file using object of type Properties. This is a utility provided by Java itself.
+The  advantage  of  using  properties  file  is  we  can  configure things which are prone to change over a period of time without need of changing anything in
+code.
+
+Properties class is child class of Hashtable.
+values which is changes frequently can be managed using properties fiels.
+Values which is changes frequently can not be hard coded in the java program.
+Each change in the source file requires recompile, rebuild, redeploy of the application which is very costly operation.
+
+To avoid these things, need to configure these properties in properties file.
+Properties object can be used to hold the properties which are coming from the properties file.
+Properties file can be used to represent a group of key-Value pairs where both the key and values are of String type.
+
+Methods:
+-String getProperty(String propertyName): Returns value associated with the  specified property.
+-String setProperty(String propertyName,String property value):it set the new property in the properties file and returns the old value if the property already available.Returns null if the specified property not available.
+-Enumeration propertyNames(): Return all the property  names.
+-void load(InputStream is):To load properties form properties  file to Java properties Object
+-void store(OutputStream os,  String comment): To Store properties from java properties object to properties file.
+
+
+=========================================================================================================================
+FileHandling in java:
+    Reading, writing and manipulating files using java code is called fileHandling.
+
+Why should we learn FileHandling:
+    1) When we perform data driven testing we need to store data in files.
+
+    2) Storing critical data like userNames and passwords inside the code is bad, because when we push the code to GitHub
+    that info will also be pushed with it, to avoid this we use properties files.
+
+    3)we don't have to hard code , because these documents can be change any time.  so better to have it file and use it when ever we need it in the program.
+
+    3) Sometimes data can be huge in GBs, and it is very bad practice to push GBS to GitHub.
+
+How can we read data from a file?
+    1) First we need to know the location(path) of the file.
+    2) Navigate to that location where file is stored.
+    3) We need a special class/Software that can help us read/write to that file.
+
+About FileInputStream & FileOutputStream:
+
+FileInputStream  and  FileOutputStream  classes  comes  from  java.io  package  and  used  to  read  and write data in the file.
+In another word, they  are used for file handling in java.  FileInputStream  is  useful  to  read  data  from  a file.
+Java FileOutputStream is an output stream for writing data to a file.
+
+
+About Apache POI:
+Apache POI is an open source java library  to create and manipulate various file  formats based on Microsoft Office (doc,
+docx, ppt, pptx, xls, xlsx).
+Apache POI is mostly used for reading and writing excel documents.It has many  predefined methods, classes, and
+interfaces that we can use to read and write into Excel files

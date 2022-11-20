@@ -15,7 +15,7 @@ public class MapDemo04 {
         fruit.put("Orange",4.99);
         fruit.put("Banana",10.1);
 //
-        Collection<Double> values= fruit.values(); //return all the values from a map
+      Collection<Double> values= fruit.values(); //return all the values from a map
 
         Iterator<Double>iterator= values.iterator();
 
@@ -25,6 +25,7 @@ public class MapDemo04 {
             // note java will auto matiacally take care the box and unbox . but it's good put the same data type
             if(value>2) {
                 iterator.remove();
+
 
                 }
             }

@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.LinkedHashSet;
 import java.util.List;
 
-public class HomeWork03 {
+public class
+HomeWork03 {
 
     public static void main(String[] args) {
         //How can you remove all duplicates from ArrayList?

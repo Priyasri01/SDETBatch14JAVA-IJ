@@ -18,7 +18,9 @@ public class CardTester {
     cardDetails.add(citi);
 
 
-    //retrieve  all the method by using all three loops
+
+
+  //retrieve  all the method by using all three loops
 
 
         for(int i=0; i<cardDetails.size();i++){
@@ -41,7 +43,7 @@ public class CardTester {
 
         System.out.println("**********************iterator loop****************************");
 
-        Iterator<Card>iter= cardDetails.iterator();
+        Iterator<Card> iter= cardDetails.iterator();
 
         while(iter.hasNext()){
 

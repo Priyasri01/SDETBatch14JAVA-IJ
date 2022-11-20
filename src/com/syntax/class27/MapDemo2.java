@@ -22,11 +22,12 @@ public class MapDemo2 {
 
         LinkedHashMap<String,Double>grocery= new LinkedHashMap<>();
 
-        grocery.putAll(beautyProducts);
+        grocery.putAll(beautyProducts);//just like add all , it will store complete  map from another map
         System.out.println(grocery);
         grocery.putAll(cosmetics);
         System.out.println(grocery);
         grocery.clear();
+
         System.out.println(grocery);
 
     }

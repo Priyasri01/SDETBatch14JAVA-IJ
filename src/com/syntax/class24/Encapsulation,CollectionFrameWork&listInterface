@@ -191,6 +191,9 @@ Reusability:
 Testing code is easy:
  Encapsulated code is easy to test for unit testing.
 
+ what is mean by "assign the values using setter methods ?
+ -means create a setter method for each field and call these method inside the constructor  to assign the value to each method  by passing the argument inside the parameter.
+ -assigning means-->
 ==================================================================================================================
  -Getter and Setter make the programmer convenient in setting and getting the value for a particular data type.
  - In both getter and setter, the first letter of the variable should be capital.

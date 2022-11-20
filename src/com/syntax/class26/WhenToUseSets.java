@@ -1,9 +1,6 @@
 package com.syntax.class26;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.LinkedHashSet;
-import java.util.LinkedList;
+import java.util.*;
 
 public class WhenToUseSets {
 
@@ -27,6 +24,8 @@ public class WhenToUseSets {
         HashSet<Integer> hashSet= new HashSet<Integer>(num); //converted ArrayList to Hashset
 
         System.out.println(hashSet);
+
+
 
         LinkedList<Integer> linkedList = new LinkedList<>(hashSet); //converting hashset to linked hashset by just calling the reference variable inside the constructor.
         System.out.println(linkedList);

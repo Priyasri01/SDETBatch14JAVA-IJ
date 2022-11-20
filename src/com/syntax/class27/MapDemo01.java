@@ -25,10 +25,9 @@ public class MapDemo01 {
         System.out.println(fruit.containsValue(4.99)); //search the map for this value
         System.out.println(fruit.isEmpty());
 
-      //  fruit.replace("Apple")
 
-//I can see that apart from put method all the other
-// methods are same as lists and sets.
-// Then why maps are not a part of collection framework? because it's have to parameter
+
+/*can see that apart from put method all the other , methods are same as lists and sets.
+Then why maps are not a part of collection framework? because it's data structure is different , it will store two values which is key & value. whereas collection take only one values.*/
     }
 }
