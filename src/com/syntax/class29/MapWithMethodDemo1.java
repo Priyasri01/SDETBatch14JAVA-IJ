@@ -17,13 +17,13 @@ public class MapWithMethodDemo1 {
        Set<String> key= getKeys(item); /* getKeys is method used to retirve the key form the map,note as we know
         we can call static method  through the class name, and no need instance to call the static method.
          but in here we called without the class name, why? because this method is inside the same class */
-       Collection<Double> values=getValue(item);//getKeys is method used to retrive the value
+
         System.out.println("All  the key from the map");
        for(String keysValu:key){
 
            System.out.println(keysValu);
        }
-
+        Collection<Double> values=getValue(item);//getKeys is method used to retrive the value
         System.out.println("All  the values from the map");
  for(Double val:values){
 

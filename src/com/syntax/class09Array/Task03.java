@@ -1,6 +1,7 @@
 package com.syntax.class09Array;
 
-public class Task03 {
+public class
+Task03 {
 
     /*
     /*

@@ -3,21 +3,23 @@
   <component name="ChangeListManager">
     <list default="true" id="60878d0d-ddd5-4539-b1cc-68aa290aa828" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/syntax/class24/DogEncapsulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class24/DogEncapsulation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/syntax/class24/Encapsulation,CollectionFrameWork&amp;listInterface" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class24/Encapsulation,CollectionFrameWork&amp;listInterface" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/syntax/class26/ArrayListVsLinketList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class26/ArrayListVsLinketList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/syntax/class26/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class26/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/syntax/class26/CardTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class26/CardTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/syntax/class26/HomeWork03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class26/HomeWork03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/syntax/class26/ListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class26/ListDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/syntax/class26/WhenToUseSets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class26/WhenToUseSets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/syntax/class27/MapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class27/MapDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/syntax/class27/MapDemo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class27/MapDemo01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/syntax/class27/MapDemo03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class27/MapDemo03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/syntax/class27/MapDemo04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class27/MapDemo04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/syntax/class27/MapDemo06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class27/MapDemo06.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/syntax/class27/MapDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class27/MapDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/syntax/class27/Rcap&amp;Map" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class27/Rcap&amp;Map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReplitSamples/Replit209.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReplitSamples/Replit209.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/syntax/class09Array/ArrayFixedSize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class09Array/ArrayFixedSize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/syntax/class09Array/HomeWork05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class09Array/HomeWork05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/syntax/class09Array/Task03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class09Array/Task03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/syntax/class16/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class16/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/syntax/class16/TypeOfVariable&amp;AccessModifer" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class16/TypeOfVariable&amp;AccessModifer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/syntax/class29/FileAndExcelDemoUsingUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class29/FileAndExcelDemoUsingUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/syntax/class29/MapWithMethodDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class29/MapWithMethodDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/syntax/class29/ReadingExcelFileDemo2Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class29/ReadingExcelFileDemo2Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/syntax/class29/ReviewExcelFileUisngUtilMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class29/ReviewExcelFileUisngUtilMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/syntax/class30/ExceptionHandle" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class30/ExceptionHandle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/syntax/class30/FinallyBlockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class30/FinallyBlockDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/syntax/class30/ThrowVSThrows.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/syntax/class30/TryCatchDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class30/TryCatchDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/syntax/class30/TypesOfExcep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class30/TypesOfExcep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/ConfigReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/ExcelReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/ExcelReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,35 +67,9 @@
       <recent name="C:\Users\priya\IdeaProjects\SDETBatch14Java\src\com\syntax\class22" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Replit209">
-    <configuration name="ExceptionDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.syntax.class30.ExceptionDemo2" />
-      <module name="SDETBatch14Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.syntax.class30.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FinallyBlockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.syntax.class30.FinallyBlockDemo" />
-      <module name="SDETBatch14Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.syntax.class30.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Replit209" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReplitSamples.Replit209" />
+  <component name="RunManager" selected="Application.Replit31">
+    <configuration name="Replit216" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReplitSamples.Replit216" />
       <module name="SDETBatch14Java" />
       <extension name="coverage">
         <pattern>
@@ -105,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThrowVSThrows" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.syntax.class30.ThrowVSThrows" />
+    <configuration name="Replit217" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReplitSamples.Replit217" />
       <module name="SDETBatch14Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.syntax.class30.*" />
+          <option name="PATTERN" value="ReplitSamples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,8 +94,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TryCatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.syntax.class30.TryCatchDemo" />
+    <configuration name="Replit219" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReplitSamples.Replit219" />
+      <module name="SDETBatch14Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ReplitSamples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Replit31" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReplitSamples.Replit31" />
+      <module name="SDETBatch14Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ReplitSamples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThrowsException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.syntax.class30.ThrowsException" />
       <module name="SDETBatch14Java" />
       <extension name="coverage">
         <pattern>
@@ -133,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Replit209" />
-        <item itemvalue="Application.ExceptionDemo2" />
-        <item itemvalue="Application.FinallyBlockDemo" />
-        <item itemvalue="Application.ThrowVSThrows" />
-        <item itemvalue="Application.TryCatchDemo" />
+        <item itemvalue="Application.Replit31" />
+        <item itemvalue="Application.Replit216" />
+        <item itemvalue="Application.Replit217" />
+        <item itemvalue="Application.Replit219" />
+        <item itemvalue="Application.ThrowsException" />
       </list>
     </recent_temporary>
   </component>
@@ -188,6 +190,15 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/SDETBatch14Java$TypeVariableDemo2.ic" NAME="TypeVariableDemo2 Coverage Results" MODIFIED="1664738714977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.syntax.class15.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SDETBatch14Java$ExceptionDemo04.ic" NAME="ExceptionDemo04 Coverage Results" MODIFIED="1669492353945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.syntax.class30.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SDETBatch14Java$TryCatchDemo.ic" NAME="TryCatchDemo Coverage Results" MODIFIED="1669492725977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.syntax.class30.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SDETBatch14Java$ThrowsException.ic" NAME="ThrowsException Coverage Results" MODIFIED="1669494077520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.syntax.class30.*</FILTER>
     </SUITE>
   </component>
 </project>

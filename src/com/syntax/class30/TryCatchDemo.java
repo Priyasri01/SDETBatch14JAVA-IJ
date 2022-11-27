@@ -5,6 +5,7 @@ public class TryCatchDemo {
         try{
             doSomething();
         }catch (NullPointerException npe){
+            System.out.println(npe);
             System.out.println("Got null pointer exception");
         }
         catch (IndexOutOfBoundsException e){

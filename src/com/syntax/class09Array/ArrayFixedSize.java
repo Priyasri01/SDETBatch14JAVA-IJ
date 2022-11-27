@@ -16,8 +16,8 @@ public class ArrayFixedSize {
         color[1]="Pink";
         color[2]="balck";
         color[3]="yellow";
-        System.out.println(color[4]); //note  this error , because array size is fixed  for 3 which is 0 to 3 index , but you have 4th index
+        System.out.println(color[3]); //note  this error , because array size is fixed  for 3 which is 0 to 3 index , but you have 4th index
                                      // and you store the value also. so,  we will get only run time error,  not copiler error.
-                                     //run time error will say index outofboud for length
+                                     //run time error will say Arrayindexoutofboud for length
     }
 }

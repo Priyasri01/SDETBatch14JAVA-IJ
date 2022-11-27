@@ -3,8 +3,8 @@ package com.syntax.class29;
 import util.ExcelReader;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
 
 public class ReviewExcelFileUisngUtilMethod {
 
@@ -15,10 +15,10 @@ public class ReviewExcelFileUisngUtilMethod {
          */
     String path= "Data/Test1.xlsx";
 
-    ArrayList<LinkedHashMap<String,String>> exceldata= ExcelReader.read(path);
+    List<Map<String, String>> exceldata= ExcelReader.read(path);
 
         System.out.println(exceldata);
-        LinkedHashMap<String,String> name=exceldata.get(0);
+       Map<String,String> name=exceldata.get(0);
         System.out.println("your Java Instructor is " +name.get("Instructor"));
     }
 }

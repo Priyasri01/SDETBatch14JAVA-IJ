@@ -2,10 +2,10 @@ package com.syntax.class30;
 
 import util.ExcelReader;
 
-import java.io.IOException;
-
 public class TypesOfExcep {
     public static void main(String[] args) {
+
+
 
         /*   String name=null;
         if(name!=null){
@@ -24,16 +24,18 @@ public class TypesOfExcep {
 */
 
 
-        try {
-            System.out.println(ExcelReader.read("/Users/apple/IdeaProjects/SDETBatch14Java/Data/Test.xlsx"));
-        } catch (IOException e) {
-            System.out.println("Josh can you please stop deleting my files");
-        }catch (NullPointerException e){
+            try {
+                System.out.println(ExcelReader.read("Data/Test.xlsx"));
+            } catch (Exception e) {
+                System.out.println("Josh can you please stop deleting my files");
+            }
+        /*catch (NullPointerException e){
+
+        }*/
+
+            System.out.println("important line of code");
+
 
         }
-
-        System.out.println("important line of code");
-
-
     }
-}
+

@@ -52,7 +52,7 @@ When we should use private access modifier.
     The data that we store inside the private variables is secured.
 default access modifier:
     Default is not a keyword. whenever we don't assign any access modifier keyword like private or
-    public Java assigns default access level to those variables or methods.
+    public Java assigns default access level to those variables or methods/class.
     The variables or methods which have default access level can be accessed wihin the same class or in any other
     class that is present inside the same package.
 Public access modifier:
@@ -68,10 +68,10 @@ We can have only one public class in a file and the name of that class should ma
 the name of the file.
 
 note:
-non-static means.. we call the method through abject.
+non-static means.. we call the method through object.
 
 note:
- we if we have varaible , if we need to call instead of  typing all the sys out. we can just type "sysov"and enter u will get the full line.
+  if we have varaible , if we need to call instead of  typing all the sys out. we can just type "sysov"and enter u will get the full line.
  ex:
  "soutv + enter"
  System.out.println("humera = " + humera); // output

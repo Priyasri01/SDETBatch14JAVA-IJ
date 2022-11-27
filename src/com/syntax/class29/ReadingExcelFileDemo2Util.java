@@ -3,13 +3,13 @@ package com.syntax.class29;
 import util.ExcelReader;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
 
 public class ReadingExcelFileDemo2Util {
     public static void main(String[] args) throws IOException {
 
-        ArrayList<LinkedHashMap<String,String>> allExcelData=   ExcelReader.read("Data/Test.xlsx");// just call the "read method"which we created in util package.
+      List<Map<String,String>> allExcelData=   ExcelReader.read("Data/Test.xlsx");// just call the "read method"which we created in util package.
 
         System.out.println(allExcelData);
 

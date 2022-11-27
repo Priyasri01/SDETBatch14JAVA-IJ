@@ -8,6 +8,8 @@ Why should we handle exceptions?
     continue to work.
 How to Handle the exceptions:
 
+throws goes in method signature to let the person who will use our method know hat they will need to handle exceptionthrow
+
 
 Most important for your framework:
 classes and objects
